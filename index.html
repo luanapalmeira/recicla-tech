@@ -3,23 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/icone-reciclagem.png" />
+    <link rel="stylesheet" href="style.css" />
     <title>Recicla Tech</title>
   </head>
   <body>
     <header>
-        <img src="./images/Logo.png" class="logo" alt="Logo da Recicla Tech" />
-        <nav>
-            <ul>
-                <li><a href="#" target="_blank"> Como Funciona </a></li>
-                <li><a href="#" target="_blank"> Doar </a></li>
-                <li><a href="#" target="_blank"> Adquirir </a></li>
-            </ul>
-        </nav>
-        <button class="botao-header">Começar agora</button>
+      <img src="./images/Logo.png" id="logo" alt="Logo da Recicla Tech" />
+      <nav>
+        <ul>
+          <li><a href="#" target="_blank"> Como Funciona </a></li>
+          <li><a href="#" target="_blank"> Doar </a></li>
+          <li><a href="#" target="_blank"> Adquirir </a></li>
+        </ul>
+      </nav>
+      <button class="botao-header">Começar agora</button>
     </header>
 
     <div class="linha-horizontal"></div>
-    
+
+    <main>
+      <section class="containerIntroducao">
+        <article>
+          <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
+          <p>
+            Conectamos pessoas que querem doar eletrônicos em bom estado com
+            quem precisa deles. Simples, gratuito e sustentável!
+          </p>
+
+          <div class="botoes-container1">
+            <button class="botao-qDoar">
+              Quero doar
+              <img
+                src="./images/presente-branco.png"
+                alt="Ícone de um presente branco"
+              />
+            </button>
+            <button class="botao-qAdquirir">
+              Quero Adquirir
+              <img
+                src="./images/coração-azul.png"
+                alt="Ícone de um coração azul"
+              />
+            </button>
+          </div>
+        </article>
+        <img
+          src="./images/reciclagem-pcb.png"
+          id="imagem-principal"
+          alt="Imagem do símbolo de reciclagem feito com placas de circuito"
+        />
+      </section>
+    </main>
   </body>
 </html>

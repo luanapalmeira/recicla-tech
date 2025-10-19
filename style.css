@@ -12,7 +12,7 @@ header {
   align-items: center;
   height: 13vh;
 }
-header .logo {
+header #logo {
   margin-left: 2rem;
 }
 header nav {
@@ -30,6 +30,9 @@ header nav a {
   font-weight: 400;
   font-size: 1rem;
   color: #4b5563;
+}
+header nav a:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 header .botao-header {
   background-color: #16a34a;
@@ -53,4 +56,81 @@ header .botao-header:hover {
   border-bottom: 1px solid #b4aeae;
   width: 96%;
   margin-left: 2.5rem;
+}
+
+.containerIntroducao {
+  background-color: #ffffff;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerIntroducao article {
+  width: 42vw;
+  height: 45vh;
+}
+.containerIntroducao article h1 {
+  width: 40vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.containerIntroducao article p {
+  width: 33vw;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #4b5563;
+}
+.containerIntroducao article .botoes-container1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.containerIntroducao article .botoes-container1 .botao-qDoar {
+  background-color: #16a34a;
+  width: 25%;
+  height: 7vh;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.containerIntroducao article .botoes-container1 .botao-qDoar:hover {
+  opacity: 0.8;
+  transition: 0.3;
+}
+.containerIntroducao article .botoes-container1 .botao-qAdquirir {
+  background-color: #ffffff;
+  width: 25%;
+  height: 7vh;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.containerIntroducao article .botoes-container1 .botao-qAdquirir:hover {
+  filter: brightness(85%);
+  transition: 0.3;
+}
+.containerIntroducao #imagem-principal {
+  width: 32vw;
+  height: 95vh;
 }/*# sourceMappingURL=style.css.map */
