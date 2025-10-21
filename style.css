@@ -136,7 +136,7 @@ header button:hover {
 }
 
 .containerDados {
-  background-color: #F3F5F8;
+  background-color: #f3f5f8;
   height: 20vh;
   display: flex;
   align-items: center;
@@ -153,11 +153,180 @@ header button:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #16A34A;
+  color: #16a34a;
 }
 .containerDados .dadosApontados p {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #4B5563;
+  color: #4b5563;
+}
+
+.containerComoFunciona {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerComoFunciona .titulo-principal {
+  width: 100%;
+  max-width: 1300px;
+  text-align: left;
+}
+.containerComoFunciona .titulo-principal h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  padding-bottom: 1.5rem;
+}
+.containerComoFunciona .titulo-principal h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #1f2937;
+}
+.containerComoFunciona section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+  padding-top: 4rem;
+}
+.containerComoFunciona section .box-doadores {
+  background-color: #f3f5f8;
+  width: 40%;
+  height: 55vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.containerComoFunciona section .box-doadores .titulos-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerComoFunciona section .box-doadores .titulos-box img {
+  padding-bottom: 2rem;
+}
+.containerComoFunciona section .box-doadores .titulos-box h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #16a34a;
+  padding-bottom: 2rem;
+}
+.containerComoFunciona section .box-doadores p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4b5563;
+}
+.containerComoFunciona section .box-doadores ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 2rem;
+}
+.containerComoFunciona section .box-doadores ol li {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+.containerComoFunciona section .box-doadores ol strong {
+  display: block;
+  color: #09090b;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.containerComoFunciona section .box-doadores ol #um-verde::before {
+  background-image: url(./images/numero-1-verde.png);
+}
+.containerComoFunciona section .box-doadores ol #dois-verde::before {
+  background-image: url(./images/numero-2-verde.png);
+}
+.containerComoFunciona section .box-doadores ol #tres-verde::before {
+  background-image: url(./images/numero-3-verde.png);
+}
+.containerComoFunciona section .box-doadores ol li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.containerComoFunciona section .box-adquirentes {
+  background-color: #f3f5f8;
+  width: 40%;
+  height: 55vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.containerComoFunciona section .box-adquirentes .titulos-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerComoFunciona section .box-adquirentes .titulos-box img {
+  padding-bottom: 2rem;
+}
+.containerComoFunciona section .box-adquirentes .titulos-box h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #2563eb;
+  padding-bottom: 2rem;
+}
+.containerComoFunciona section .box-adquirentes p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4b5563;
+}
+.containerComoFunciona section .box-adquirentes ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 2rem;
+}
+.containerComoFunciona section .box-adquirentes ol li {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+.containerComoFunciona section .box-adquirentes ol strong {
+  display: block;
+  color: #09090b;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.containerComoFunciona section .box-adquirentes ol #um-azul::before {
+  background-image: url(./images/numero-1-azul.png);
+}
+.containerComoFunciona section .box-adquirentes ol #dois-azul::before {
+  background-image: url(./images/numero-2-azul.png);
+}
+.containerComoFunciona section .box-adquirentes ol #tres-azul::before {
+  background-image: url(./images/numero-3-azul.png);
+}
+.containerComoFunciona section .box-adquirentes ol li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
