@@ -12,7 +12,7 @@ header {
   align-items: center;
   height: 13vh;
 }
-header #logo {
+header img {
   margin-left: 2rem;
 }
 header nav {
@@ -34,7 +34,7 @@ header nav a {
 header nav a:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-header .botao-header {
+header button {
   background-color: #16a34a;
   width: 10%;
   height: 7vh;
@@ -47,7 +47,7 @@ header .botao-header {
   font-size: 1rem;
   font-weight: 400;
 }
-header .botao-header:hover {
+header button:hover {
   opacity: 0.8;
   transition: 0.3;
 }
@@ -85,12 +85,12 @@ header .botao-header:hover {
   font-weight: 400;
   color: #4b5563;
 }
-.containerIntroducao article .botoes-container1 {
+.containerIntroducao article div {
   display: flex;
   flex-direction: row;
   gap: 50px;
 }
-.containerIntroducao article .botoes-container1 .botao-qDoar {
+.containerIntroducao article div .botao-qDoar {
   background-color: #16a34a;
   width: 25%;
   height: 7vh;
@@ -106,11 +106,11 @@ header .botao-header:hover {
   justify-content: center;
   gap: 10px;
 }
-.containerIntroducao article .botoes-container1 .botao-qDoar:hover {
+.containerIntroducao article div .botao-qDoar:hover {
   opacity: 0.8;
   transition: 0.3;
 }
-.containerIntroducao article .botoes-container1 .botao-qAdquirir {
+.containerIntroducao article div .botao-qAdquirir {
   background-color: #ffffff;
   width: 25%;
   height: 7vh;
@@ -126,11 +126,38 @@ header .botao-header:hover {
   justify-content: center;
   gap: 8px;
 }
-.containerIntroducao article .botoes-container1 .botao-qAdquirir:hover {
+.containerIntroducao article div .botao-qAdquirir:hover {
   filter: brightness(85%);
   transition: 0.3;
 }
 .containerIntroducao #imagem-principal {
   width: 32vw;
   height: 95vh;
+}
+
+.containerDados {
+  background-color: #F3F5F8;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerDados .dadosApontados {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 80%;
+}
+.containerDados .dadosApontados h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #16A34A;
+}
+.containerDados .dadosApontados p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4B5563;
 }/*# sourceMappingURL=style.css.map */

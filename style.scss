@@ -13,7 +13,7 @@ header {
   align-items: center;
   height: 13vh;
 
-  #logo {
+  img {
     margin-left: 2rem;
   }
 
@@ -40,7 +40,7 @@ header {
     }
   }
 
-  .botao-header {
+  button {
     background-color: #16a34a;
     width: 10%;
     height: 7vh;
@@ -95,7 +95,7 @@ header {
       color: #4b5563;
     }
 
-    .botoes-container1 {
+    div {
       display: flex;
       flex-direction: row;
       gap: 50px;
@@ -149,5 +149,35 @@ header {
   #imagem-principal {
     width: 32vw;
     height: 95vh;
+  }
+}
+
+.containerDados {
+  background-color: #F3F5F8;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .dadosApontados {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #16A34A;
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #4B5563;
+    }
   }
 }
