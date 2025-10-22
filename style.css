@@ -417,4 +417,99 @@ header button:hover {
 .containerProdutosDisponiveis section article button:hover {
   opacity: 0.8;
   transition: 0.3;
+}
+
+.containerPessoalFalando {
+  background-color: #ffffff;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerPessoalFalando h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1F2937;
+  padding-bottom: 1rem;
+}
+.containerPessoalFalando h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #4B5563;
+  padding-bottom: 4rem;
+}
+.containerPessoalFalando section {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+.containerPessoalFalando section article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-top: 1px solid #9CA3AF;
+  border-right: 1px solid #9CA3AF;
+  border-bottom: 1px solid #9CA3AF;
+  border-left: 4px solid #9CA3AF;
+  width: 25%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.containerPessoalFalando section article img {
+  width: 40%;
+}
+.containerPessoalFalando section article .comentario {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4B5563;
+  width: 85%;
+  margin-top: 1rem;
+}
+.containerPessoalFalando section article p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #6B7280;
+}
+.containerPessoalFalando section article ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 2rem;
+}
+.containerPessoalFalando section article ul li {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+.containerPessoalFalando section article ul strong {
+  display: block;
+  color: #09090B;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+.containerPessoalFalando section article ul #presente-verde::before {
+  background-image: url(./images/circulo-verde-presente.png);
+}
+.containerPessoalFalando section article ul #coracao-azul::before {
+  background-image: url(./images/circulo-azul-coracao.png);
+}
+.containerPessoalFalando section article ul #reciclagem-branco::before {
+  background-image: url(./images/reciclagem-branco.png);
+}
+.containerPessoalFalando section article ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
