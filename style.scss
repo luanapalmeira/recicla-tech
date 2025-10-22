@@ -192,7 +192,7 @@ header {
 
   .titulo-principal {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1320px;
     text-align: left;
 
     h2 {
@@ -369,6 +369,105 @@ header {
           height: 24px;
           background-size: contain;
           background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
+
+.containerProdutosDisponiveis {
+  background-color: #f3f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .titulo-principal {
+    width: 100%;
+    max-width: 1325px;
+    text-align: left;
+    padding-bottom: 6rem;
+
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1f2937;
+      padding-bottom: 1rem;
+    }
+
+    h3 {
+      font-family: "Inter", sans-serif;
+      font-size: 1.563rem;
+      font-weight: 400;
+      color: #4b5563;
+    }
+  }
+
+  section {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+    article {
+      background-color: #ffffff;
+      border-radius: 8px;
+      border: 2px solid #16a34a;
+      width: 25%;
+      height: 55vh;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+
+      img {
+        width: 100%;
+        height: 26vh;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      .notebook {
+        filter: brightness(0.8);
+      }
+
+      h4 {
+        font-family: "Inter", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #09090b;
+        text-align: center;
+        margin-top: 1.5rem;
+      }
+
+      p {
+        width: 84%;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+        color: #4b5563;
+      }
+
+      button {
+        width: 52%;
+        height: 5vh;
+        margin-left: 4.5rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background-color: #16a34a;
+        font-family: "Inter", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #ffffff;
+
+        &:hover {
+          opacity: 0.8;
+          transition: 0.3;
         }
       }
     }
