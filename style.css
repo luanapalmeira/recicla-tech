@@ -15,9 +15,15 @@ header {
 header img {
   margin-left: 2rem;
 }
+header .botao-alinhado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
 header nav {
-  width: 20%;
-  margin-left: 60rem;
+  width: 30%;
+  margin-left: 55rem;
   font-family: "Poppins", sans-serif;
 }
 header nav ul {
@@ -36,7 +42,7 @@ header nav a:hover {
 }
 header button {
   background-color: #16a34a;
-  width: 10%;
+  width: 13%;
   height: 7vh;
   border-radius: 6px;
   border: none;
@@ -147,7 +153,7 @@ header button:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  width: 80%;
+  width: 65%;
 }
 .containerDados .dadosApontados h2 {
   font-family: "Poppins", sans-serif;
@@ -678,7 +684,7 @@ footer section article ol #twitter::before {
   background-image: url(./images/icone-twitter.png);
 }
 footer .linha-footer {
-  border-top: 1px solid #4B5563;
+  border-top: 1px solid #4b5563;
   width: 96%;
   margin-top: 2rem;
   padding-top: 2rem;
@@ -688,5 +694,87 @@ footer .linha-footer p {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #9CA3AF;
+  color: #9ca3af;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    height: 20vh;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  header img {
+    width: 40%;
+    margin-top: 1rem;
+  }
+  header .botao-alinhado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  }
+  header nav {
+    margin-left: 1rem;
+    width: 75vw;
+  }
+  header nav a {
+    font-size: 0.8rem;
+  }
+  header button {
+    margin-left: 1rem;
+    width: 30%;
+    height: 6vh;
+    font-size: 0.7rem;
+  }
+  .linha-horizontal {
+    width: 85%;
+    margin-left: 2rem;
+  }
+  .containerIntroducao {
+    height: 70vh;
+    flex-direction: column;
+  }
+  .containerIntroducao article {
+    width: 85vw;
+    height: 32vh;
+    text-align: center;
+  }
+  .containerIntroducao article h1 {
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .containerIntroducao article p {
+    margin: 0;
+    font-size: 1rem;
+    width: 100%;
+  }
+  .containerIntroducao article div {
+    margin-top: 2rem;
+    gap: 20px;
+  }
+  .containerIntroducao article div .botao-qDoar,
+  .containerIntroducao article div .botao-qAdquirir {
+    width: 50%;
+    height: 5vh;
+    font-size: 0.7rem;
+  }
+  .containerIntroducao #imagem-principal {
+    width: 60vw;
+    height: 85vh;
+  }
+  .containerDados {
+    height: 15vh;
+  }
+  .containerDados .dadosApontados {
+    width: 93%;
+    flex-wrap: nowrap;
+  }
+  .containerDados .dadosApontados h2 {
+    font-size: 1.5rem;
+  }
+  .containerDados .dadosApontados p {
+    font-size: 0.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
