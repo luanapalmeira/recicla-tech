@@ -238,6 +238,16 @@ header button:hover {
   padding-left: 3rem;
   margin-bottom: 2rem;
 }
+.containerComoFunciona section .box-doadores ol li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .containerComoFunciona section .box-doadores ol strong {
   display: block;
   color: #09090b;
@@ -252,16 +262,6 @@ header button:hover {
 }
 .containerComoFunciona section .box-doadores ol #tres-verde::before {
   background-image: url(./images/numero-3-verde.png);
-}
-.containerComoFunciona section .box-doadores ol li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.3rem;
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .containerComoFunciona section .box-adquirentes {
   background-color: #f3f5f8;
@@ -489,6 +489,15 @@ header button:hover {
   padding-left: 3rem;
   margin-bottom: 2rem;
 }
+.containerPessoalFalando section article ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .containerPessoalFalando section article ul strong {
   display: block;
   color: #09090b;
@@ -504,19 +513,10 @@ header button:hover {
 .containerPessoalFalando section article ul #reciclagem-branco::before {
   background-image: url(./images/reciclagem-branco.png);
 }
-.containerPessoalFalando section article ul li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .containerFazerADiferenca {
   background-color: #f3f5f8;
-  height: 35vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -566,14 +566,127 @@ header button:hover {
   height: 5vh;
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid #16A34A;
+  border: 1px solid #16a34a;
   background-color: #f3f5f8;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #16A34A;
+  color: #16a34a;
 }
 .containerFazerADiferenca div .saber:hover {
   filter: brightness(85%);
   transition: 0.3;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 40vh;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+footer section article {
+  flex: 1 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+footer section article img {
+  margin-right: 7.5rem;
+  margin-bottom: 1rem;
+}
+footer section article p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9ca3af;
+  width: 80%;
+  text-align: left;
+}
+footer section article h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: left;
+  margin-right: 8rem;
+  margin-bottom: 1rem;
+}
+footer section article #links {
+  margin-right: 5.5rem;
+}
+footer section article ul {
+  list-style: none;
+  margin-right: 6rem;
+}
+footer section article ul li {
+  padding-bottom: 1rem;
+}
+footer section article ul li a {
+  text-decoration: none;
+  color: #9ca3af;
+}
+footer section article ol {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+footer section article ol li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+footer section article ol li:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+footer section article ol li::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer section article ol #facebook::before {
+  background-image: url(./images/icone-facebook.png);
+}
+footer section article ol #email::before {
+  background-image: url(./images/icone-email.png);
+}
+footer section article ol #twitter::before {
+  background-image: url(./images/icone-twitter.png);
+}
+footer .linha-footer {
+  border-top: 1px solid #4B5563;
+  width: 96%;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+footer .linha-footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9CA3AF;
 }/*# sourceMappingURL=style.css.map */
