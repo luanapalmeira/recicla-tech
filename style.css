@@ -15,7 +15,7 @@ header {
 header img {
   margin-left: 2rem;
 }
-header .botao-alinhado {
+header .alinhamento {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -601,7 +601,7 @@ footer section {
   max-width: 1400px;
   margin: 0 auto;
 }
-footer section article {
+footer section div {
   flex: 1 1;
   min-width: 220px;
   display: flex;
@@ -609,9 +609,25 @@ footer section article {
   align-items: flex-start;
   gap: 0.6rem;
 }
-footer section article img {
+footer section div img {
   margin-right: 7.5rem;
   margin-bottom: 1rem;
+}
+footer section div .coluna-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9ca3af;
+  text-align: left;
+  width: 70%;
+}
+footer section article {
+  flex: 1 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
 }
 footer section article p {
   font-family: "Poppins", sans-serif;
@@ -707,7 +723,7 @@ footer .linha-footer p {
     width: 40%;
     margin-top: 1rem;
   }
-  header .botao-alinhado {
+  header .alinhamento {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -737,13 +753,12 @@ footer .linha-footer p {
   .containerIntroducao article {
     width: 85vw;
     height: 32vh;
-    text-align: center;
   }
   .containerIntroducao article h1 {
     font-size: 2rem;
     width: 100%;
     padding-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .containerIntroducao article p {
     margin: 0;
@@ -752,11 +767,12 @@ footer .linha-footer p {
   }
   .containerIntroducao article div {
     margin-top: 2rem;
+    margin-left: 2rem;
     gap: 20px;
   }
   .containerIntroducao article div .botao-qDoar,
   .containerIntroducao article div .botao-qAdquirir {
-    width: 50%;
+    width: 40%;
     height: 5vh;
     font-size: 0.7rem;
   }
@@ -775,6 +791,163 @@ footer .linha-footer p {
     font-size: 1.5rem;
   }
   .containerDados .dadosApontados p {
+    font-size: 0.7rem;
+  }
+  .containerComoFunciona {
+    height: 130vh;
+  }
+  .containerComoFunciona .titulo-principal {
+    width: 77%;
+  }
+  .containerComoFunciona .titulo-principal h2 {
+    font-size: 1.5rem;
+  }
+  .containerComoFunciona .titulo-principal h3 {
+    font-size: 1rem;
+  }
+  .containerComoFunciona section {
+    flex-direction: column;
+    width: 80%;
+    padding-top: 2rem;
+  }
+  .containerComoFunciona section .box-doadores,
+  .containerComoFunciona section .box-adquirentes {
+    width: 97%;
+    height: 47vh;
+  }
+  .containerComoFunciona section .box-doadores .titulos-box img,
+  .containerComoFunciona section .box-adquirentes .titulos-box img {
+    width: 14%;
+    height: 8vh;
+  }
+  .containerComoFunciona section .box-doadores .titulos-box h3,
+  .containerComoFunciona section .box-adquirentes .titulos-box h3 {
+    font-size: 1rem;
+  }
+  .containerComoFunciona section .box-doadores p,
+  .containerComoFunciona section .box-adquirentes p {
+    font-size: 0.7rem;
+  }
+  .containerProdutosDisponiveis {
+    height: 155vh;
+  }
+  .containerProdutosDisponiveis .titulo-principal {
+    width: 77%;
+    padding-bottom: 3rem;
+  }
+  .containerProdutosDisponiveis .titulo-principal h2 {
+    font-size: 1.5rem;
+  }
+  .containerProdutosDisponiveis .titulo-principal h3 {
+    font-size: 1rem;
+  }
+  .containerProdutosDisponiveis section {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .containerProdutosDisponiveis section article {
+    width: 70%;
+    height: 40vh;
+  }
+  .containerProdutosDisponiveis section article img {
+    height: 16vh;
+  }
+  .containerProdutosDisponiveis section article h4,
+  .containerProdutosDisponiveis section article p {
+    font-size: 0.8rem;
+  }
+  .containerProdutosDisponiveis section article button {
+    width: 50%;
+    height: 5vh;
+    font-size: 0.7rem;
+    margin-left: 3rem;
+  }
+  .containerPessoalFalando {
+    height: 141vh;
+  }
+  .containerPessoalFalando h2 {
+    font-size: 1.5rem;
+  }
+  .containerPessoalFalando h3 {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+  }
+  .containerPessoalFalando section {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+  .containerPessoalFalando section article {
+    width: 80%;
+    height: 35vh;
+  }
+  .containerPessoalFalando section article .comentario,
+  .containerPessoalFalando section article p {
+    font-size: 0.8rem;
+  }
+  .containerPessoalFalando section article #presente-verde::before,
+  .containerPessoalFalando section article #coracao-azul::before,
+  .containerPessoalFalando section article #reciclagem-branco::before {
+    width: 30px;
+    height: 30px;
+  }
+  .containerFazerADiferenca {
+    height: 28vh;
+  }
+  .containerFazerADiferenca h2 {
+    font-size: 1.5rem;
+  }
+  .containerFazerADiferenca h3 {
+    font-size: 1rem;
+    width: 94%;
+  }
+  .containerFazerADiferenca div {
+    width: 73%;
+  }
+  .containerFazerADiferenca div .comecar,
+  .containerFazerADiferenca div .saber {
+    width: 40%;
+    height: 4vh;
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 61vh;
+  }
+  footer section div {
+    margin-right: 2rem;
+    min-width: 152px;
+  }
+  footer section div img {
+    width: 70%;
+    margin-right: 1rem;
+  }
+  footer section div .coluna-1 {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  footer section article {
+    min-width: 180px;
+    margin-bottom: 1rem;
+  }
+  footer section article p {
+    font-size: 0.7rem;
+  }
+  footer section article ul {
+    font-size: 0.7rem;
+  }
+  footer section article ul li {
+    width: 22vw;
+  }
+  footer section article h4 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    width: 51%;
+  }
+  footer .linha-footer {
+    padding-top: 1rem;
+  }
+  footer .linha-footer p {
     font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */

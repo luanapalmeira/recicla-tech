@@ -17,7 +17,7 @@ header {
     margin-left: 2rem;
   }
 
-  .botao-alinhado {
+  .alinhamento {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -680,7 +680,7 @@ footer {
     max-width: 1400px;
     margin: 0 auto;
 
-    article {
+    div {
       flex: 1 1;
       min-width: 220px;
       display: flex;
@@ -692,6 +692,24 @@ footer {
         margin-right: 7.5rem;
         margin-bottom: 1rem;
       }
+
+      .coluna-1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #9ca3af;
+        text-align: left;
+        width: 70%;
+      }
+    }
+
+    article {
+      flex: 1 1;
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.6rem;
 
       p {
         font-family: "Poppins", sans-serif;
@@ -805,7 +823,7 @@ footer {
       margin-top: 1rem;
     }
 
-    .botao-alinhado {
+    .alinhamento {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -841,13 +859,12 @@ footer {
     article {
       width: 85vw;
       height: 32vh;
-      text-align: center;
 
       h1 {
         font-size: 2rem;
         width: 100%;
         padding-bottom: 1rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
       }
 
       p {
@@ -858,11 +875,12 @@ footer {
 
       div {
         margin-top: 2rem;
+        margin-left: 2rem;
         gap: 20px;
 
         .botao-qDoar,
         .botao-qAdquirir {
-          width: 50%;
+          width: 40%;
           height: 5vh;
           font-size: 0.7rem;
         }
@@ -885,6 +903,205 @@ footer {
       h2 {
         font-size: 1.5rem;
       }
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .containerComoFunciona {
+    height: 130vh;
+
+    .titulo-principal {
+      width: 77%;
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+
+    section {
+      flex-direction: column;
+      width: 80%;
+      padding-top: 2rem;
+
+      .box-doadores,
+      .box-adquirentes {
+        width: 97%;
+        height: 47vh;
+
+        .titulos-box {
+          img {
+            width: 14%;
+            height: 8vh;
+          }
+
+          h3 {
+            font-size: 1rem;
+          }
+        }
+
+        p {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .containerProdutosDisponiveis {
+    height: 155vh;
+
+    .titulo-principal {
+      width: 77%;
+      padding-bottom: 3rem;
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+
+    section {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+
+      article {
+        width: 70%;
+        height: 40vh;
+
+        img {
+          height: 16vh;
+        }
+
+        h4,
+        p {
+          font-size: 0.8rem;
+        }
+
+        button {
+          width: 50%;
+          height: 5vh;
+          font-size: 0.7rem;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+
+  .containerPessoalFalando {
+    height: 141vh;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    section {
+      flex-direction: column;
+      align-items: center;
+      gap: 45px;
+
+      article {
+        width: 80%;
+        height: 35vh;
+
+        .comentario,
+        p {
+          font-size: 0.8rem;
+        }
+
+        #presente-verde::before,
+        #coracao-azul::before,
+        #reciclagem-branco::before {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  .containerFazerADiferenca {
+    height: 28vh;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      width: 94%;
+    }
+
+    div {
+      width: 73%;
+
+      .comecar,
+      .saber {
+        width: 40%;
+        height: 4vh;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  footer {
+    height: 61vh;
+
+    section {
+      div {
+        margin-right: 2rem;
+        min-width: 152px;
+
+        img {
+          width: 70%;
+          margin-right: 1rem;
+        }
+
+        .coluna-1 {
+          font-size: 0.7rem;
+          width: 100%;
+        }
+      }
+
+      article {
+        min-width: 180px;
+        margin-bottom: 1rem;
+
+        p {
+          font-size: 0.7rem;
+        }
+
+        ul {
+          font-size: 0.7rem;
+
+          li {
+            width: 22vw;
+          }
+        }
+
+        h4 {
+          font-size: 0.8rem;
+          margin-bottom: 0.5rem;
+          width: 51%;
+        }
+      }
+    }
+
+    .linha-footer {
+      padding-top: 1rem;
 
       p {
         font-size: 0.7rem;
