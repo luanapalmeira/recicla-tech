@@ -853,7 +853,7 @@ footer {
   }
 
   .containerIntroducao {
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
 
     article {
@@ -864,7 +864,7 @@ footer {
         font-size: 2rem;
         width: 100%;
         padding-bottom: 1rem;
-        margin-top: 3rem;
+        padding-top: 3rem;
       }
 
       p {
@@ -888,6 +888,7 @@ footer {
     }
 
     #imagem-principal {
+      margin-top: 4rem;
       width: 60vw;
       height: 85vh;
     }
@@ -911,7 +912,7 @@ footer {
   }
 
   .containerComoFunciona {
-    height: 130vh;
+    height: 135vh;
 
     .titulo-principal {
       width: 77%;
@@ -933,12 +934,11 @@ footer {
       .box-doadores,
       .box-adquirentes {
         width: 97%;
-        height: 47vh;
+        height: 50vh;
 
         .titulos-box {
           img {
-            width: 14%;
-            height: 8vh;
+            width: 13%;
           }
 
           h3 {
@@ -954,7 +954,7 @@ footer {
   }
 
   .containerProdutosDisponiveis {
-    height: 155vh;
+    height: 163vh;
 
     .titulo-principal {
       width: 77%;
@@ -976,7 +976,7 @@ footer {
 
       article {
         width: 70%;
-        height: 40vh;
+        height: 42vh;
 
         img {
           height: 16vh;
@@ -998,7 +998,7 @@ footer {
   }
 
   .containerPessoalFalando {
-    height: 141vh;
+    height: 155vh;
 
     h2 {
       font-size: 1.5rem;
@@ -1016,7 +1016,7 @@ footer {
 
       article {
         width: 80%;
-        height: 35vh;
+        height: 40vh;
 
         .comentario,
         p {
@@ -1034,7 +1034,7 @@ footer {
   }
 
   .containerFazerADiferenca {
-    height: 28vh;
+    height: 35vh;
 
     h2 {
       font-size: 1.5rem;
@@ -1042,7 +1042,7 @@ footer {
 
     h3 {
       font-size: 1rem;
-      width: 94%;
+      width: 90%;
     }
 
     div {
@@ -1058,7 +1058,7 @@ footer {
   }
 
   footer {
-    height: 61vh;
+    height: 106vh;
 
     section {
       div {
@@ -1066,7 +1066,7 @@ footer {
         min-width: 152px;
 
         img {
-          width: 70%;
+          width: 50%;
           margin-right: 1rem;
         }
 
@@ -1079,6 +1079,7 @@ footer {
       article {
         min-width: 180px;
         margin-bottom: 1rem;
+        margin-top: 1rem;
 
         p {
           font-size: 0.7rem;

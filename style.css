@@ -747,7 +747,7 @@ footer .linha-footer p {
     margin-left: 2rem;
   }
   .containerIntroducao {
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
   }
   .containerIntroducao article {
@@ -758,7 +758,7 @@ footer .linha-footer p {
     font-size: 2rem;
     width: 100%;
     padding-bottom: 1rem;
-    margin-top: 3rem;
+    padding-top: 3rem;
   }
   .containerIntroducao article p {
     margin: 0;
@@ -777,6 +777,7 @@ footer .linha-footer p {
     font-size: 0.7rem;
   }
   .containerIntroducao #imagem-principal {
+    margin-top: 4rem;
     width: 60vw;
     height: 85vh;
   }
@@ -794,7 +795,7 @@ footer .linha-footer p {
     font-size: 0.7rem;
   }
   .containerComoFunciona {
-    height: 130vh;
+    height: 135vh;
   }
   .containerComoFunciona .titulo-principal {
     width: 77%;
@@ -813,12 +814,11 @@ footer .linha-footer p {
   .containerComoFunciona section .box-doadores,
   .containerComoFunciona section .box-adquirentes {
     width: 97%;
-    height: 47vh;
+    height: 50vh;
   }
   .containerComoFunciona section .box-doadores .titulos-box img,
   .containerComoFunciona section .box-adquirentes .titulos-box img {
-    width: 14%;
-    height: 8vh;
+    width: 13%;
   }
   .containerComoFunciona section .box-doadores .titulos-box h3,
   .containerComoFunciona section .box-adquirentes .titulos-box h3 {
@@ -829,7 +829,7 @@ footer .linha-footer p {
     font-size: 0.7rem;
   }
   .containerProdutosDisponiveis {
-    height: 155vh;
+    height: 163vh;
   }
   .containerProdutosDisponiveis .titulo-principal {
     width: 77%;
@@ -848,7 +848,7 @@ footer .linha-footer p {
   }
   .containerProdutosDisponiveis section article {
     width: 70%;
-    height: 40vh;
+    height: 42vh;
   }
   .containerProdutosDisponiveis section article img {
     height: 16vh;
@@ -864,7 +864,7 @@ footer .linha-footer p {
     margin-left: 3rem;
   }
   .containerPessoalFalando {
-    height: 141vh;
+    height: 155vh;
   }
   .containerPessoalFalando h2 {
     font-size: 1.5rem;
@@ -880,7 +880,7 @@ footer .linha-footer p {
   }
   .containerPessoalFalando section article {
     width: 80%;
-    height: 35vh;
+    height: 40vh;
   }
   .containerPessoalFalando section article .comentario,
   .containerPessoalFalando section article p {
@@ -893,14 +893,14 @@ footer .linha-footer p {
     height: 30px;
   }
   .containerFazerADiferenca {
-    height: 28vh;
+    height: 35vh;
   }
   .containerFazerADiferenca h2 {
     font-size: 1.5rem;
   }
   .containerFazerADiferenca h3 {
     font-size: 1rem;
-    width: 94%;
+    width: 90%;
   }
   .containerFazerADiferenca div {
     width: 73%;
@@ -912,14 +912,14 @@ footer .linha-footer p {
     font-size: 0.7rem;
   }
   footer {
-    height: 61vh;
+    height: 106vh;
   }
   footer section div {
     margin-right: 2rem;
     min-width: 152px;
   }
   footer section div img {
-    width: 70%;
+    width: 50%;
     margin-right: 1rem;
   }
   footer section div .coluna-1 {
@@ -929,6 +929,7 @@ footer .linha-footer p {
   footer section article {
     min-width: 180px;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   footer section article p {
     font-size: 0.7rem;
